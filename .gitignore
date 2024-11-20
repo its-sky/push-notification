@@ -1,7 +1,7 @@
-HELP.md
+server/HELP.md
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
+!server/gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 **/application-secret.properties
@@ -22,11 +22,11 @@ bin/
 **/generated_tests
 
 ### IntelliJ IDEA ###
-.idea
+server/.idea
 *.iws
 *.iml
 *.ipr
-out/
+server/out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
@@ -47,5 +47,7 @@ Application.run.xml
 localhost.p12
 
 ## google sheet credentials
-**.json
+firebase_service_key.json
 **/firebase_service_key.json
+
+**/.env
