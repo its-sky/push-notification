@@ -38,8 +38,6 @@ class PushNotificationService(
                         notification = Notification(title, body, "default")
                 )
         )
-        println(targetToken +", " + title + ", " + body)
-        println(objectMapper.writeValueAsString(fcmMessage))
         return objectMapper.writeValueAsString(fcmMessage)
     }
 
