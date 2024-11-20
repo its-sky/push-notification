@@ -51,3 +51,5 @@ firebase_service_key.json
 **/firebase_service_key.json
 
 **/.env
+
+.idea/**
